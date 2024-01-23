@@ -33,7 +33,7 @@ form {
   position: relative;
   background-color: #676264;
   padding: 20px 80px;
-  margin: 0 auto;
+  margin: 60px auto;
   border-radius: 20px;
   box-shadow: 0 6px #2E282A;
 }
@@ -46,6 +46,7 @@ form {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
+  margin-top: 40px;
 }
 
 .btn:hover {
