@@ -1,5 +1,5 @@
 body {
-  background: #342E37;
+  background: #b77dd4;
   }
 
 .container {
@@ -20,7 +20,15 @@ img {
   display: block;
   margin: 0 auto;
 }
+img:hover{
+ 
+  transform: perspective(100px) rotateX(360deg);
+  padding: 20px;
+  color: aqua;
+  display: block;
+  margin: 0 auto;
 
+}
 form {
   padding: 30px;
 }
@@ -31,7 +39,7 @@ form {
   cursor: pointer;
   display: block;
   position: relative;
-  background-color: #676264;
+  background-color: #dd82a7;
   padding: 20px 80px;
   margin: 60px auto;
   border-radius: 20px;
@@ -50,7 +58,7 @@ form {
 }
 
 .btn:hover {
-  box-shadow: 0 4px #2E282A;
+  box-shadow: 0 4px #e39db4;
   top: 2px; 
 }
 
